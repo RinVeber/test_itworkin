@@ -4,7 +4,7 @@ export default function Table({ rows, setRows }: any) {
   const [sortArray, setSortArray] = React.useState();
   const [typeSort, setSortType] = React.useState("up");
 
-  const columnTable = React.useMemo(() => {
+    const columnTable = React.useMemo(() => {
     return Object.keys(rows[0]);
   }, []);
 

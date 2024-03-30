@@ -15,6 +15,15 @@ export default function MainPage() {
     return item.name.toLowerCase().includes(searchValue.toLowerCase());
   });
 
+  // const filterArray = Object.fromEntries(
+  //   Object.entries(rows).filter(([key, value]) =>
+  //     [value]
+  //       .toLocaleString()
+  //       .toLocaleLowerCase()
+  //       .includes(searchValue.toLowerCase())
+  //   )
+  // );
+
   React.useEffect(() => {
     getData(page)
       .then((res: any) => {
