@@ -1,0 +1,14 @@
+.pagination {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pagination__buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+
+}

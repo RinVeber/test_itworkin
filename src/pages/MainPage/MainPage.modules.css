@@ -1,0 +1,49 @@
+
+
+.table {
+    padding: 20px;
+    height: 600px;
+width: 100%;
+border: 1px solid grey;
+box-shadow: 0px 0px 2px 0px #00000014;
+border-radius: 10px;
+}
+
+.table__row-columnName{
+    width: 1020px;
+    display: flex;
+    flex-direction: row;
+   gap: 20px;
+   padding-bottom: 20px;
+   justify-content: space-between;
+}
+
+.table__rows {
+    width: 1020px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+
+.table__cell {
+    width: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 0 8px;
+}
+
+.table__cell:hover {
+    background-color: rgb(212, 212, 235)
+}
+
+.info__sort {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
